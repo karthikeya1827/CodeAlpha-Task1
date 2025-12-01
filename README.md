@@ -38,7 +38,6 @@ To classify whether a person is creditworthy based on features like income, debt
 ## 📊 Results
 - **Classification Report**:
               precision    recall  f1-score   support
-
            0       0.67      0.45      0.54        62
            1       0.78      0.90      0.84       138
     accuracy                           0.76       200
