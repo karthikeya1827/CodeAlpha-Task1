@@ -2,6 +2,8 @@
 
 This project builds a machine learning model to predict an individual's creditworthiness using historical financial data from the German Credit dataset.
 
+---
+
 ## 📌 Objective
 To classify whether a person is creditworthy based on features like income, debts, and payment history.
 
@@ -34,14 +36,25 @@ To classify whether a person is creditworthy based on features like income, debt
 ---
 
 ## 📊 Results
-- **ROC-AUC Score**: ~`XX.XX` *(replace with your actual result)*
+- **Classification Report**:
+              precision    recall  f1-score   support
+
+           0       0.67      0.45      0.54        62
+           1       0.78      0.90      0.84       138
+
+    accuracy                           0.76       200
+   macro avg       0.73      0.68      0.69       200
+weighted avg       0.75      0.76      0.75       200
+
+
+- **ROC-AUC Score**: `0.7633`
+
 - **Top Risk Factors**:
-  - Feature 1
-  - Feature 2
-  - Feature 3
-  - Feature 4
-  - Feature 5  
-*(Replace with actual feature names from your output)*
+- Credit_Amount — 0.136
+- Account_Balance — 0.106
+- Age_years — 0.104
+- Duration_of_Credit_monthly — 0.104
+- Payment_Status_of_Previous_Credit — 0.065
 
 ---
 
@@ -54,7 +67,7 @@ To classify whether a person is creditworthy based on features like income, debt
 ## 🚀 How to Run
 1. Clone the repo
 2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-##  Run using
-   python credit_scoring.py
+ ```bash
+ pip install -r requirements.txt
+python credit_scoring.py
+
