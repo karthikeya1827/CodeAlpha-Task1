@@ -37,13 +37,7 @@ To classify whether a person is creditworthy based on features like income, debt
 
 ## 📊 Results
 - **Classification Report**:
-              precision    recall  f1-score   support
-           0       0.67      0.45      0.54        62
-           1       0.78      0.90      0.84       138
-    accuracy                           0.76       200
-   macro avg       0.73      0.68      0.69       200
-weighted avg       0.75      0.76      0.75       200
-
+<img width="314" height="128" alt="image" src="https://github.com/user-attachments/assets/413a294a-120f-4324-b7c4-999fb1aab755" />
 
 - **ROC-AUC Score**: `0.7633`
 
