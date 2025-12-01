@@ -62,7 +62,7 @@ To classify whether a person is creditworthy based on features like income, debt
    ```bash
    pip install -r requirements.txt
 
-- Run using:
+3. Run using:
    ```bash
    python credit_scoring.py
 
