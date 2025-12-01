@@ -57,11 +57,12 @@ To classify whether a person is creditworthy based on features like income, debt
 ---
 
 ## 🚀 How to Run
-1. Clone the repo
+1. Clone the repo  
 2. Install dependencies:  
- ```bash
- pip install -r requirements.txt
-3. Run using:
- ```bash
-python credit_scoring.py
+   ```bash
+   pip install -r requirements.txt
+
+- Run using:
+   ```bash
+   python credit_scoring.py
 
