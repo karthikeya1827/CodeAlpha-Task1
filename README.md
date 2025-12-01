@@ -41,7 +41,6 @@ To classify whether a person is creditworthy based on features like income, debt
 
            0       0.67      0.45      0.54        62
            1       0.78      0.90      0.84       138
-
     accuracy                           0.76       200
    macro avg       0.73      0.68      0.69       200
 weighted avg       0.75      0.76      0.75       200
